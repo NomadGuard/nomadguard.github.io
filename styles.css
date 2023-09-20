@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.status {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.status.connected {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.status.disconnected {
+    background-color: #F44336;
+    color: #fff;
+}
+
+.filter {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.filter.filtered {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.filter.notfiltered {
+    background-color: #F44336;
+    color: #fff;
+}
