@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     statusDiv.textContent = 'DISCONNECTED';
     statusDiv.classList.add("disconnected");
 
-    filterDiv.textContent = 'NOT filtering 1,314,895+ threats';
+    filterDiv.textContent = 'NOT filtering 1,580,345+ threats';
     filterDiv.classList.add("notfiltered");
 });
